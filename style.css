@@ -1,0 +1,168 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: #dae2df;
+    padding: 8px 16px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #273c2c;
+}
+
+#logo-text {
+    padding: 0;
+    color: white;
+    background-color: #273c2c;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+
+#logo-text {
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-text div {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+
+h1, h2 {
+    color: #273c2c;
+}
+
+header {
+    margin-top: 175px;
+    margin-bottom: 125px;
+}
+
+#headshot {
+    border-radius: 50%;
+    max-width: 300px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 5px #BCBCC8;
+}
+
+#header-bio p {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#bio-text {
+    font-size: 1.1em;
+}
+
+#name {
+    max-width: 80%;
+    margin: 8px auto;
+}
+
+#socialmedia-list {
+    margin: 5px auto;
+    max-width: 80%;
+}
+
+.socialmedia-icon {
+    border:none;
+}
+
+.socialmedia-icon a {
+    color: #273c2c;
+    text-align: center;
+}
+
+section {
+    /* margin: 50px auto 150px auto; */
+    padding-top: 50px;
+    margin-bottom: 150px;
+}
+
+@media (max-width: 767px) {
+    section {
+        margin: 50px auto 50px auto;
+    }
+}
+
+.contactSection {
+    margin: 50px auto 50px auto;
+
+}
+
+.section-body {
+    background-color: #F4F4F6;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.last-p {
+    margin: 0;
+}
+
+hr {
+    color: #6a5d7b;
+}
+
+@media (min-width: 493px) {
+    .mobile-skill-break {
+        display: none !important;
+    }
+}
+
+.skill-container {
+    background-color: #273c2c;
+    color: white;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.skill-container p {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: .65em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.skill-inner img {
+    color: white;
+    height: 27px;
+}
+
+.contact-icon {
+    border:none;
+}
+
+#contact i {
+    color: #273c2c;
+}
+
+a {
+    color: #6A5D7B;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #273c2c;
+}
+
+#contact a:hover {
+    color: #6A5D7B;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #dae2df;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
