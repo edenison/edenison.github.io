@@ -35,6 +35,10 @@ h1, h2 {
     color: #273c2c;
 }
 
+h2 {
+    margin: 30px auto 25px;
+}
+
 header {
     margin-top: 175px;
     margin-bottom: 125px;
@@ -78,7 +82,7 @@ header {
 section {
     /* margin: 50px auto 150px auto; */
     padding-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 @media (max-width: 767px) {
